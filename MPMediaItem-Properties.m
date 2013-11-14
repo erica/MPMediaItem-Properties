@@ -139,4 +139,10 @@
 {
 	return [self valueForProperty:MPMediaItemPropertyLastPlayedDate];
 }
+
+- (NSURL *) assetURL
+{
+    return [self valueForProperty:MPMediaItemPropertyAssetURL];
+}
+
 @end
